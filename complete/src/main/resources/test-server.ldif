@@ -54,6 +54,17 @@ sn: Hamilton
 uid: bob
 userPassword: bobspassword
 
+
+dn: uid=jason,ou=people,dc=springframework,dc=org
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Jasn Shi
+sn: Shi
+uid: jason
+userPassword: jason
+
 dn: uid=joe,ou=otherpeople,dc=springframework,dc=org
 objectclass: top
 objectclass: person
@@ -113,6 +124,7 @@ cn: developers
 ou: developer
 uniqueMember: uid=ben,ou=people,dc=springframework,dc=org
 uniqueMember: uid=bob,ou=people,dc=springframework,dc=org
+uniqueMember: uid=jason,ou=people,dc=springframework,dc=org
 
 dn: cn=managers,ou=groups,dc=springframework,dc=org
 objectclass: top
